@@ -1,13 +1,43 @@
 {
-    "name": "shrikeh/testing-metapackage",
-    "description": "Metapackage of compatible testing and quality tools for reuse",
-    "type": "metapackage",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Barney Hanlon"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "shrikeh/testing-metapackage",
+  "description": "Metapackage of compatible testing and quality tools for reuse",
+  "license": "MIT",
+  "type": "metapackage",
+  "authors": [
+    {
+      "name": "Barney Hanlon"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "behat/behat": "^3.1",
+    "ergebnis/composer-normalize": "^2.1",
+    "infection/infection": "^0.26",
+    "jangregor/phpstan-prophecy": "^1.0",
+    "phpmd/phpmd": "^2.0",
+    "phpmetrics/phpmetrics": "^2.5",
+    "phpspec/prophecy-phpunit": "^2.0",
+    "phpstan/extension-installer": "^1.1",
+    "phpstan/phpstan": "^1.5",
+    "phpunit/php-code-coverage": "^9.0",
+    "phpunit/phpcov": "^8.0",
+    "phpunit/phpunit": "^9.0",
+    "roave/security-advisories": "dev-master",
+    "squizlabs/php_codesniffer": "^3.0",
+    "vimeo/psalm": "^4.0"
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "allow-plugins": {
+      "infection/extension-installer": true,
+      "ergebnis/composer-normalize": true,
+      "phpstan/extension-installer": true
+    }
+  },
+  "extra": {
+    "composer-normalize": {
+      "indent-size": 2,
+      "indent-style": "space"
+    }
+  }
 }

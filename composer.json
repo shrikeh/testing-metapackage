@@ -1,0 +1,13 @@
+{
+    "name": "shrikeh/testing-metapackage",
+    "description": "Metapackage of compatible testing and quality tools for reuse",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Barney Hanlon"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

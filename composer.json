@@ -26,7 +26,7 @@
     "vimeo/psalm": "^4.0"
   },
   "suggest": {
-    "roave/security-advisories": "Cannot be installed via this otherwise it breaks minimum-stability. Please run `composer require --dev roave/security-advisories:dev-master"
+    "roave/security-advisories": "Cannot be installed via this otherwise it breaks minimum-stability. Please run `composer require --dev roave/security-advisories:dev-master`"
   },
   "minimum-stability": "stable",
   "config": {

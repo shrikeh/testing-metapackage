@@ -19,7 +19,7 @@
     "phpspec/prophecy-phpunit": "^2.0",
     "phpstan/extension-installer": "^1.1",
     "phpstan/phpstan": "^1.5",
-    "phpunit/php-code-coverage": "^9.0",
+    "phpunit/php-code-coverage": "^11.0",
     "phpunit/phpcov": "^8.0",
     "phpunit/phpunit": "^9.0",
     "squizlabs/php_codesniffer": "^3.0",

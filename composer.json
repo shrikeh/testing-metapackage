@@ -9,21 +9,21 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
-    "behat/behat": "*",
-    "ergebnis/composer-normalize": "*",
-    "infection/infection": "*",
-    "jangregor/phpstan-prophecy": "*",
-    "phpmd/phpmd": "*",
-    "phpmetrics/phpmetrics": "*",
-    "phpspec/prophecy-phpunit": "*",
-    "phpstan/extension-installer": "*",
-    "phpstan/phpstan": "*",
-    "phpunit/php-code-coverage": "*",
-    "phpunit/phpcov": "*",
-    "phpunit/phpunit": "*",
-    "squizlabs/php_codesniffer": "*",
-    "vimeo/psalm": "*"
+    "php": "^8.1",
+    "behat/behat": "^3.1",
+    "ergebnis/composer-normalize": "^2.1",
+    "infection/infection": "^0.26",
+    "jangregor/phpstan-prophecy": "^1.0",
+    "phpmd/phpmd": "^2.0",
+    "phpmetrics/phpmetrics": "^2.5",
+    "phpspec/prophecy-phpunit": "^2.0",
+    "phpstan/extension-installer": "^1.1",
+    "phpstan/phpstan": "^1.5",
+    "phpunit/php-code-coverage": "^9.0",
+    "phpunit/phpcov": "^8.0",
+    "phpunit/phpunit": "^9.0",
+    "squizlabs/php_codesniffer": "^3.0",
+    "vimeo/psalm": "^4.0"
   },
   "suggest": {
     "roave/security-advisories": "Cannot be installed via this otherwise it breaks minimum-stability. Please run `composer require --dev roave/security-advisories:dev-master`"
